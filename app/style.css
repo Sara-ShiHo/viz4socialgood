@@ -1,0 +1,35 @@
+div.tooltip {	
+    position: absolute;			
+    text-align: center;	
+    width: 60px;					
+    height: 28px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;	
+}
+
+.tooltip {
+    text-align: center;
+}
+
+#svgid { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px; 
+    width: 1500px;
+}
+
+circle {
+    opacity: 0.5;
+}
+
+#mapid { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px; 
+    width: 80%;
+}
