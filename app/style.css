@@ -13,6 +13,15 @@ div.tooltip {
 .tooltip {
     text-align: center;
 }
+text {
+    font-size: 13px;
+}
+
+h2 {
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+}
 
 #svgid { 
     display: block;
@@ -31,5 +40,5 @@ circle {
     margin-left: auto;
     margin-right: auto;
     height: 500px; 
-    width: 80%;
+    width: 60%;
 }
