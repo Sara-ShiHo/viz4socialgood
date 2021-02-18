@@ -10,9 +10,8 @@ function tick() {
     d3.selectAll(".circ")
         .attr("cx", (d) => { return d.x })
         .attr("cy", (d) => { return d.y })
-        .attr("id", (d, i) => { return "id"+i})
         .on("mouseover", function (d) {
-            d3.select(this).style("opacity", 1.0)
+            d3.select(this)
                 .transition()
                 .attr('r', this.getAttribute('r') * 1.2);
 
@@ -20,11 +19,11 @@ function tick() {
                 .duration(1000)
                 .style("opacity", .9);
             div.html(d.charity + "<br>" + d.date)
-                .style("left", (d.x + 25) + "px")
-                .style("top", (d.y) + "px");
+                .style("left", (d.x) + "px")
+                .style("top", (d.y + 25) + "px");
         })
         .on("mouseout", function (d) {
-            d3.select(this).style("opacity", 0.5)
+            d3.select(this)
                 .transition()
                 .attr('r', this.getAttribute('r') / 1.2);
             div.transition()
