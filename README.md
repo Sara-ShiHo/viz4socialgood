@@ -1,11 +1,8 @@
 # Data Viz For Social Good
 
-## Third Try
-![third draft](screenshots/thirddraft.png)
+## Demo
+![](gifs/secondplotdemo.gif)
+![](gifs/tooltipdemo.gif)
+![](gifs/mapdemo.gif)
 
-## Second Try
-![second draft](screenshots/seconddraft.png)
-
-## First Try
-![first draft](screenshots/firstdraft.png)
 
