@@ -1,8 +1,11 @@
 # Data Viz For Social Good
 
-## Demo
+## Demo - changing axis
+
 ![](gifs/secondplotdemo.gif)
-![](gifs/tooltipdemo.gif)
+
+## Demo - map
+
 ![](gifs/mapdemo.gif)
 
 
